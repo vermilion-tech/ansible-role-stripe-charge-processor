@@ -1,7 +1,8 @@
 ---
 #
 
-- docker_container:
+- name: Start stripe-charge-processor container
+  docker_container:
     name: "{{ container_name }}"
     image: "{{ container_image }}"
     state: present
