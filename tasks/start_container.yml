@@ -10,3 +10,6 @@
     labels: "{{ labels }}"
     networks:
       - name: "{{ traefik_network }}"
+    env:
+      STRIPE_SECRET_KEY: "{{ stripe_secret_key }}"
+      STRIPE_CHARGE_DESCRIPTION: "{{ stripe_charge_description }}"

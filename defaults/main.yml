@@ -12,4 +12,7 @@ labels:
   traefik.frontend.rule: "Host: {{ base_url }}"
   traefik.enable: "true"
 
+stripe_secret_key: stripe_secret_key
+stripe_charge_description: Example Charge Description
+
 traefik_network: traefik
