@@ -5,7 +5,7 @@
   docker_container:
     name: "{{ container_name }}"
     image: "{{ container_image }}"
-    restart: yes
+    recreate: yes
     pull: yes
     labels: "{{ labels }}"
     networks:
