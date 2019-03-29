@@ -9,7 +9,7 @@ base_url: example.com
 labels:
   traefik.backend: "{{ container_name }}"
   traefik.port: "8080"
-  traefik.frontend.rule: "{{ base_url }}"
+  traefik.frontend.rule: "Host: {{ base_url }}"
   traefik.enable: "true"
 
-docker_networkz: traefik
+traefik_network: traefik

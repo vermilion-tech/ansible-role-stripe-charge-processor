@@ -9,4 +9,4 @@
     pull: yes
     labels: "{{ labels }}"
     networks:
-      - name: "{{ docker_networkz }}"
+      - name: "{{ traefik_network }}"
