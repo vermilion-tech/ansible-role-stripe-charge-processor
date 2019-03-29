@@ -1,0 +1,5 @@
+---
+# tasks file for ansible-role-stripe-charge-processor
+
+- name: Start stripe-charge-processor container
+  import_tasks: start_container.yml

@@ -1,0 +1,12 @@
+---
+# defaults file for ansible-role-stripe-charge-processor
+
+container_name: stripe-charge-processor
+container_image: kadenlnelson/stripe-charge-processor:master
+
+base_url: example.com
+
+labels:
+  traefik.backend: "{{ container_name }}"
+  traefik.port: 8080
+  traefik.frontend.rule: "{{ base_url }}"

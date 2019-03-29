@@ -1,0 +1,7 @@
+---
+# vars file for ansible-role-stripe-charge-processor
+
+docker_install_compose: false
+
+pip_install_packages:
+  - docker
