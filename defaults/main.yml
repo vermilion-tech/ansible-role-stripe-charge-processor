@@ -11,3 +11,5 @@ labels:
   traefik.port: "8080"
   traefik.frontend.rule: "{{ base_url }}"
   traefik.enable: "true"
+
+docker_network: traefik

@@ -9,3 +9,5 @@
     restart: yes
     pull: yes
     labels: "{{ labels }}"
+    networks:
+      - name: "{{ docker_network }}"
