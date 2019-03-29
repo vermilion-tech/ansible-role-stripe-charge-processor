@@ -12,4 +12,4 @@ labels:
   traefik.frontend.rule: "{{ base_url }}"
   traefik.enable: "true"
 
-docker_network: traefik
+docker_networkz: traefik
